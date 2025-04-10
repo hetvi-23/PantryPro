@@ -1,3 +1,57 @@
+# 🧠 Pantry Pro – Smart Pantry Management App
+
+Pantry Pro is a mobile application designed to simplify pantry inventory management. By leveraging barcode scanning and smart recipe suggestions, Pantry Pro helps users efficiently track groceries, reduce food waste, and make smarter cooking decisions.
+
+## 📱 Key Features
+
+- 📦 **Barcode Scanning:**  
+  Seamlessly scan grocery items using the React Native Vision Camera to auto-populate inventory.
+
+- ⏳ **Expiry Date Tracking:**  
+  Get real-time alerts on upcoming expiry dates to reduce waste and manage groceries better.
+
+- 🍲 **Smart Recipe Suggestions:**  
+  Personalized meal ideas powered by machine learning algorithms using current inventory.
+
+- 🔄 **Firebase Integration:**  
+  Real-time database for inventory updates, user authentication, and expiry alerts.
+
+- 🧑‍💼 **Agile Practices:**  
+  Project driven with Scrum methodology; sprints aligned with functional goals and clean code practices under Scrum Master guidance.
+
+## 🛠️ Tech Stack
+
+| Layer          | Technology                         |
+|----------------|-------------------------------------|
+| Frontend       | React Native, JavaScript           |
+| Camera Module  | React Native Vision Camera         |
+| Backend        | Firebase (Authentication & Realtime DB) |
+| ML Integration | Python (for recipe suggestion logic) |
+| CI/CD          | Expo CLI / Firebase Hosting (optional) |
+
+## 📁 Project Structure
+
+```bash
+smartpantry-main/
+├── App.js
+├── components/
+│   ├── BarcodeScanner.js
+│   ├── InventoryList.js
+│   └── RecipeSuggestion.js
+├── firebase/
+│   └── config.js
+├── screens/
+│   ├── HomeScreen.js
+│   ├── AddItemScreen.js
+│   ├── RecipeScreen.js
+│   └── LoginScreen.js
+├── assets/
+├── ml_model/
+│   └── suggest.py
+├── package.json
+└── README.md
+
+🚀 Getting Started
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
